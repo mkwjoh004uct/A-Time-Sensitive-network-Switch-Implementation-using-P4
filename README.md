@@ -79,6 +79,6 @@ and send UDP (-u) packets with bandwidth size of 0Mbits/sec (-b 0M) to destinati
 
 This instruct h22 to act as server (-s) and listen/sniff UDP packets and print results every 1 second (i- 1).
 
-3. Finally, the results obtained for each of the test can be found on this folder `Plots Results` are used to perform the plots.
+3. Finally, the results obtained for each of the test can be found above, folder `Plots Results` and these are the results used to perform the plots.
 
    
