@@ -49,7 +49,7 @@ With tunneling, xterm h1 use the following commands:
 + `./send.py 10.1.2.8 “Implementing TSN switch using P4 has been fun” --dst_id 2` 
 + `./send.py 10.1.3.9 “It’s even better when your supervisor is Dr JM” --dst_id 3`
 
-With tunneing, the destination address is not relevant because this is not IP routing but packets are forwarded based on the customed tunnel header.
+With tunneing, the destination address is not relevant because this is not IP routing but packets are forwarded based on the customized tunnel header IDs.
 
 ## P4Runtime-Controlled TSN Network
 
