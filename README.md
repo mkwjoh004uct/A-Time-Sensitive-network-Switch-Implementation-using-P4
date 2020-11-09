@@ -1,4 +1,4 @@
-# A Time Sensitive network Switch Implementation using Programming Protocol-Independent Packet Processors (P4)
+# A Time-Sensitive Network Switch Implementation using Programming Protocol-Independent Packet Processors (P4)
 # Introduction
 Final year research project to design a programmable virtual switch based on the specifications of TSN to be implemented on a TSN network (in Mininet) comprised of various TSN switches and a network controller.
 
@@ -38,7 +38,7 @@ This command runs the python server to sniff and and print packets that arrives 
 
 7. On xterm h1 run the following commands:
 + `./send.py 10.0.2.2 “Implementing TSN switch using P4 has been fun”`
-+ `./send.py 10.0.3.3 “It’s even better when your supervisor is Dr JM”`
++ `./send.py 10.0.3.3 “Thanks to my supervisor Dr JM”`
 
 These commands will send packets to `h2` & `h2` with the indicated messages.
 
@@ -46,8 +46,8 @@ These commands will send packets to `h2` & `h2` with the indicated messages.
 
 The results for this test follow similar instructions as the basic IP routing except host `h1` sending command line.
 With tunneling, xterm h1 use the following commands:
-+ `./send.py 10.1.2.8 “Implementing TSN switch using P4 has been fun” --dst_id 2` 
-+ `./send.py 10.1.3.9 “It’s even better when your supervisor is Dr JM” --dst_id 3`
++ `./send.py 0.0.0.0 “Tunneling uses destination ID” --dst_id 2` 
++ `./send.py 1.1.1.1 “Tunneling ignores IP address" --dst_id 3`
 
 With tunneing, the destination address is not relevant because this is not IP routing but packets are forwarded based on the customized tunnel header IDs.
 
